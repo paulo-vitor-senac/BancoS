@@ -1,6 +1,3 @@
-const SUPABASE_URL = 'https://zeotkaqzhrqlvwgpaupx.supabase.co';
-const SUPABASE_KEY = 'sb_publishable_7EGQgsk1BFSj3Xa4RNJAHQ_THGH6h8l';
-
 async function cadastrar() {
     const email = document.getElementById('email').value.trim();
     const senha = document.getElementById('senha').value;

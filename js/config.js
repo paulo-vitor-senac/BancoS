@@ -1,6 +1,6 @@
 // CONFIGURAÇÃO DO SUPABASE - COLOQUE SEUS DADOS AQUI
-const SUPABASE_URL = 'https://zeotkaqzhrqlvwgpaupx.supabase.co';
-const SUPABASE_KEY = 'sb_publishable_7EGQgsk1BFSj3Xa4RNJAHQ_THGH6h8l';
+const SUPABASE_URL = 'https://jxygtqbvkastlfaqdgtf.supabase.co';
+const SUPABASE_KEY = 'sb_publishable_YThT0Li9GMSidXimiRbTfQ_QMpr6QfY';
 
 async function supabaseQuery(tabela, metodo, dados = null, id = null) {
     let url = `${SUPABASE_URL}/rest/v1/${tabela}`;
