@@ -2,28 +2,96 @@
 <html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Login - Nexum Bank</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nexum Bank</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@300;400;600&display=swap"
+        rel="stylesheet" />
 </head>
 
 <body>
+    <header>
+        <div class="logo">Nexum<span> Bank</span></div>
+        <nav>
+            <a href="#sobre">Sobre</a>
+            <a href="cadastro.html" class="btn-nav">Registre-se</a>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <p class="subtitulo">Bem-vindo ao futuro das finanças</p>
+            <h1>Seu dinheiro merece <span class="dourado">excelência</span></h1>
+            <p class="descricao">
+                O Nexum Bank é um banco digital criado para quem valoriza segurança,
+                praticidade e um atendimento verdadeiramente diferenciado.
+            </p>
+            <a href="cadastro.html" class="btn-principal">Registre-se agora</a>
+            <p class="link-login">Já tem uma conta? <a href="#">Faça Login</a></p>
+        </div>
+        <div class="hero-decoracao">
+            <div class="circulo c1"></div>
+            <div class="circulo c2"></div>
+        </div>
+    </section>
 
-    <h2>Login</h2>
+    <section class="sobre" id="sobre">
+        <h2>Sobre o <span class="dourado">Nexum Bank</span></h2>
+        <p>
+            Nascemos com uma missão clara: oferecer serviços financeiros de alto padrão
+            com a simplicidade do mundo digital. Sem filas, sem burocracia — apenas
+            resultados.
+        </p>
+    </section>
+    <footer>
 
-    <label>Email:</label><br>
-    <input type="email" id="email"><br><br>
+        <div class="footer-topo">
+            <p>Entre em contato conosco</p>
+            <div class="footer-contatos-rapidos">
+                <span>📧 contato@nexumbank.com</span>
+                <span>📞 +55 (11) 99999-0000</span>
+            </div>
+        </div>
 
-    <label>Senha:</label><br>
-    <input type="password" id="senha"><br><br>
+        <div class="footer-corpo">
 
-    <button onclick="entrar()">Entrar</button>
+            <div class="footer-col">
+                <h4>Nexum <span class="dourado">Bank</span></h4>
+                <p>
+                    Banco digital criado para quem valoriza segurança e praticidade.
+                    Sem burocracia, apenas resultados.
+                </p>
+            </div>
 
-    <p id="msg"></p>
-    <p><a href="cadastro.html">Criar conta</a></p>
+            <div class="footer-col">
+                <h4>Links Úteis</h4>
+                <ul>
+                    <li><a href="cadastro.html">Abrir conta</a></li>
+                    <li><a href="#">Sobre nós</a></li>
+                    <li><a href="#">Política de privacidade</a></li>
+                    <li><a href="#">Termos de uso</a></li>
+                </ul>
+            </div>
 
-    <script src="../js/config.js"></script>
-    <script src="../js/login.js"></script>
+            <div class="footer-col">
+                <h4>Contato</h4>
+                <ul class="footer-info">
+                    <li>📍 Uberlândia - MG</li>
+                    <li>📧 nexumbank@gmail.com</li>
+                    <li>📞 +55 (34) 99116-0111</li>
+                </ul>
+            </div>
 
+        </div>
+
+        <div class="footer-base">
+            <p>© 2025 Nexum Bank · Todos os direitos reservados</p>
+        </div>
+
+    </footer>
+
+    <script src="../js/script.js"></script>
 </body>
 
 </html>
